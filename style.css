@@ -1,0 +1,161 @@
+body{
+    font-family: Arial ;
+    overflow-x: hidden;
+}
+.title:hover{
+  color: blue;
+  cursor: pointer;
+}
+.ok:hover{
+    text-decoration: underline;
+}
+/* header */
+header{
+    background-image: url(image/design9.jpg);
+    height: 189vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width:992px) {
+    header{
+        background-image: url(image/design11.jpg);
+        height: 200vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+       
+}
+@media screen and (max-width:920px) {
+    header{
+        background-image: url(image/style6.PNG);
+        height: 269vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+       
+}
+
+
+
+/* navbar */
+
+.list:hover{
+    color: coral;
+   text-decoration: underline;
+    transition: all .4s
+}
+
+/* and of navbar */
+
+
+/* barner */
+.shop:hover{
+    color: black;
+    transform: translateY(-2px);
+}
+.image-pic{
+    width: 20%;
+    height: 50%;
+    display: flex;
+   position: absolute;
+   top: 200px;
+   left: 40%;
+   border-radius: 13px;
+}
+
+.barner-head{
+    animation-name: bar;
+    animation-duration: 3s;
+    animation-delay: .2s;
+}
+.PE{
+    animation-name: key;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: .3s;
+    background-image: url(image/style3.PNG);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 8rem;
+}
+@keyframes key {
+    0%{
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(20px);
+        opacity: 1;
+    }
+}
+@keyframes bar{
+    0%{
+        transform: translateY(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(10px);
+        opacity: 1;
+    }
+}
+.pic{
+    box-shadow: 20px 20px 30px black;
+    border-left: 7px solid black;
+}
+
+/* and of barner */
+
+/* and of header */
+
+/* Collection */
+.collect:hover{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+/* an of Collection */
+
+/* New Arrival */
+.CA{
+    border: none;
+    transition: all .2s;
+
+}
+.CA:hover,.top{
+    border: 1px solid black;
+}
+
+/* and of New Arrival */
+
+/* popular */
+
+.underlines{
+    border-bottom: 2px solid black;
+    width: 450px;
+}
+
+.underlines:hover{
+    border-bottom: 8px solid black;
+  
+    color:black;
+}
+
+
+@media screen and (max-width:200){
+    .underlines{
+        width: 800%;
+    }
+}
+/* and of popular */
+
+/* footer */
+.lis:hover{
+   text-decoration: underline;
+   
+}
+/* footer */
